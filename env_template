@@ -39,14 +39,14 @@ HASHING_PAIRS="1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 HASHING_SECRET="__PLACE_HERE__"
 # SQLite3 DB File
 # Default: __DEFINE__IT__
-SQLITE3_COMMON_DB_FILE="db/geodata.sqlite"
-SPATIALITE_COMMON_DB_FILE="db/webworx.db"
+SQLITE3_COMMON_DB_FILE="..........sqlite"
+SPATIALITE_COMMON_DB_FILE="............db"
 # Local PostgreSQL Host
 # Default: localhost
 LOCAL_SERVER_PGSQL_HOST=localhost
 # Local PostgreSQL User
 # Default: no
-PGSQL_USERNAME=pgdbuser
+PGSQL_USERNAME=__username__
 # Local PostgreSQL Database Name
 # Default: no
 PGSQL_DATABASE=__database__
