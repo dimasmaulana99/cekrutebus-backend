@@ -1,0 +1,26 @@
+{
+  "name": "cekrutebus-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --unhandled-rejections=strict ./index.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js --ignore data ./index.js",
+    "minimum": "node --unhandled-rejections=strict ./index-minimal.js",
+    "static": "node --unhandled-rejections=strict ./index-static.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:dimasmaulana99/cekrutebus-backend.git",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "spatialite": "^0.1.0",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
