@@ -1,0 +1,64 @@
+# Application Server Name
+# Default: PaluGada Server
+APP_SERVER_NAME="Cekrutebus.id Server"
+# Application Server Context
+# Options: DEVELOPMENT | PRODUCTION
+APP_SERVER_CONTEXT="PRODUCTION"
+# HTTP Port
+# Default: 63393
+APP_HTTP_PORT=62117
+# HTTPS Port
+# Default: 63399
+APP_HTTPS_PORT=63117
+# APP_BASE_DIR
+# Default: /
+APP_BASE_DIR="/__PATH__"
+# APP_RUN_MODE
+# Default: direct | fork
+APP_RUN_MODE="direct"
+# APP_*_FORK_DIR
+# Default: __DIR_NAME__
+APP_INIT_FORK_DIR="./lib/__DIR_NAME__"
+APP_AUTH_FORK_DIR="./lib/__DIR_NAME__"
+APP_DATA_FORK_DIR="./lib/__DIR_NAME__"
+# APP_*_FILE_DIR
+# Default: __DIR_NAME__/
+APP_TEMPORARY_FILE_DIR="/../data/__DIR_NAME__/"
+APP_EXTRACT_SHAPEFILE_DIR="/../data/__DIR_NAME__/"
+APP_GEOJSON_FILE_DIR="/../data/__DIR_NAME__/"
+APP_WEB_DIRECT_FILE_DIR="/../data/__DIR_NAME__/"
+APP_WEB_UPLOAD_PDF_FILE_DIR="/../data/__DIR_NAME__/"
+# Default / System-Wide Password
+# Default: 123456
+APP_DEFAULT_PASSWORD="123456"
+# Hashing Pairs
+# Default: 1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+HASHING_PAIRS="1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+# Hashing Secret
+# Default: __64_CHARACTERS_HEX_STRING__
+HASHING_SECRET="__PLACE_HERE__"
+# SQLite3 DB File
+# Default: __DEFINE__IT__
+SQLITE3_COMMON_DB_FILE="db/geodata.sqlite"
+SPATIALITE_COMMON_DB_FILE="db/webworx.db"
+# Local PostgreSQL Host
+# Default: localhost
+LOCAL_SERVER_PGSQL_HOST=localhost
+# Local PostgreSQL User
+# Default: no
+PGSQL_USERNAME=pgdbuser
+# Local PostgreSQL Database Name
+# Default: no
+PGSQL_DATABASE=__database__
+# Local PostgreSQL Password
+# Default: no
+PGSQL_PASSWORD=__password__
+# Local PostgreSQL Port
+# Default: 5432
+PGSQL_PORT=5432
+# Session Timeout (in minutes)
+# Default: 60
+SESSION_TIMEOUT=60
+# i18n / Internationalisation
+# Default: en | id
+APP_I18N="en-US"
