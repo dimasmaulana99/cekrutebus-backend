@@ -1,0 +1,15 @@
+[Unit]
+Description=Cekrutebus.id Backend
+Documentation=https://github.com/dimasmaulana99/cekrutebus-backend#readme
+After=network.target
+
+[Service]
+WorkingDirectory=/home/youth/backend
+Environment=NODE_ENV=production
+Type=simple
+User=youth
+ExecStart=/home/youth/backend/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
